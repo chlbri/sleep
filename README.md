@@ -1,4 +1,4 @@
-# The Ultimate package to sleep
+# The Ultimate package to sleep 🛌 😪 like a baby 👩🏾‍🍼
 
  <br>
 
@@ -11,4 +11,4 @@ simplest package in the **entire history** of
 
 ### Enjoy your sleep
 
-_Maybe new ways to sleep can come 😯!_
+_Maybe new ways to sleep will arrive soon_ 😯 _!_
