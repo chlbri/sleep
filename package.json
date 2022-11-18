@@ -1,7 +1,7 @@
 {
   "name": "@bemedev/sleep",
   "author": "chlbri <bri_lvi@icloud.com>",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

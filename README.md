@@ -1,6 +1,6 @@
 # The Ultimate package to sleep 🛌 😪 like a baby 👩🏾‍🍼
 
- <br>
+<br/>
 
 With this function (
 [sleep](https://github.com/chlbri/sleep/blob/dev/src/index.ts) ), you can
@@ -23,9 +23,11 @@ const myCoolFunction = async () => {
 };
 ```
 
-I don't why the core-js team doesn't inclue this one. So I write the
+I don't why the core-js team doesn't include this one. So I write the
 simplest package in the **entire history** of
-[Javascript](https://www.javascript.com). <br> <br>
+[Javascript](https://www.javascript.com).
+
+<br/> <br/>
 
 ### Enjoy your sleep
 
