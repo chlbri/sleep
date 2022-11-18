@@ -1,7 +1,7 @@
 {
   "name": "@bemedev/sleep",
   "author": "chlbri <bri_lvi@icloud.com>",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -12,6 +12,14 @@
   "engines": {
     "node": ">=12"
   },
+  "keywords": [
+    "sleep",
+    "wait",
+    "promise",
+    "callback",
+    "async",
+    "asynchronous"
+  ],
   "scripts": {
     "config": "pnpm install",
     "rollup": "rollup -c",
