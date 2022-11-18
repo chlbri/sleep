@@ -1,5 +1,7 @@
 {
-  "version": "0.0.4",
+  "name": "@bemedev/sleep",
+  "author": "chlbri <bri_lvi@icloud.com>",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -26,8 +28,6 @@
     "postpublish": "git fetch & git pull",
     "prepublishOnly": "pnpm run build && pnpm run lint"
   },
-  "name": "@bemedev/x-interpret-react",
-  "author": "chlbri <bri_lvi@icloud.com>",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
@@ -43,6 +43,7 @@
     "rollup-plugin-esbuild": "^5.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.4.1",
     "typescript": "^4.9.3",
     "vite": "^3.2.4",
     "vite-tsconfig-paths": "^3.5.2",

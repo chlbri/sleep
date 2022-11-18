@@ -3,7 +3,11 @@ import dts from 'rollup-plugin-dts';
 import esbuild from 'rollup-plugin-esbuild';
 import { terser } from 'rollup-plugin-terser';
 
-/** @type {import('rollup').defineConfig} */
+/**
+ *
+ * @param {import('rollup').RollupOptions} config
+ * @returns {import('rollup').RollupOptions}
+ */
 const bundle = config => ({
   ...config,
   input: 'src/index.ts',
@@ -11,7 +15,7 @@ const bundle = config => ({
 });
 
 /** @type {import('rollup').RollupOptions} */
-export default [
+const config = [
   bundle({
     plugins: [esbuild(), terser({})],
     output: [
@@ -35,3 +39,5 @@ export default [
     },
   }),
 ];
+
+export default config;
