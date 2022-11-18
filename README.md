@@ -6,6 +6,23 @@ With this function (
 [sleep](https://github.com/chlbri/sleep/blob/dev/src/index.ts) ), you can
 sleep the time you want !
 
+## _Example_
+
+```typescript
+import sleep from '@bemedev/sleep';
+
+const myCoolFunction = async () => {
+  // Go to sleep
+  await sleep(2); // 100 milliseconds by default
+
+  // Sleeping...
+  // Sleeping...
+
+  // And wake up !
+  console.log("I'm awake");
+};
+```
+
 I don't why the core-js team doesn't inclue this one. So I write the
 simplest package in the **entire history** of
 [Javascript](https://www.javascript.com). <br> <br>
