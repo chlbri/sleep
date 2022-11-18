@@ -1,7 +1,7 @@
-import { vi as _vi } from 'vitest';
+import { vi } from 'vitest';
 
 type VitestUtils = Omit<
-  typeof _vi,
+  typeof vi,
   '_timers' | '_mockedDate' | '_mocker' | 'getImporter' | '_config'
 >;
 type Primitive = number | boolean | string;
@@ -14,5 +14,5 @@ type Props = {
 };
 
 export default function extendVitest<T extends Props>(options: T) {
-  return Object.assign(_vi as VitestUtils, options);
+  return Object.assign(vi as VitestUtils, options);
 }
