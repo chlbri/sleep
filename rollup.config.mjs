@@ -14,7 +14,6 @@ const bundle = config => ({
   external: id => !/^[./]/.test(id),
 });
 
-/** @type {import('rollup').RollupOptions} */
 const config = [
   bundle({
     plugins: [esbuild(), terser({})],
