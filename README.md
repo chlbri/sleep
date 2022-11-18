@@ -23,7 +23,7 @@ const myCoolFunction = async () => {
 };
 ```
 
-I don't why the core-js team doesn't include this one. So I write the
+I don't know why the core-js team doesn't include this one. So I write the
 simplest package in the **entire history** of
 [Javascript](https://www.javascript.com).
 
