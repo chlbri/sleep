@@ -1,12 +1,16 @@
 {
   "name": "@bemedev/sleep",
   "author": "chlbri <bri_lvi@icloud.com>",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The Ultimate package to sleep 🛌 😪 like a baby 👩🏾‍🍼",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "module": "lib/index.mjs",
+  "module": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chlbri/sleep.git"
+  },
   "files": [
     "lib"
   ],
