@@ -1,7 +1,6 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { afterAll, beforeAll, describe, expect, test } from 'vitest';
-import extendVitest from './_augment';
-import sleep from './index';
+import extendVitest from './fixtures';
+import { sleep } from './index';
 
 const vi = extendVitest({
   async advanceAsync(this, ms: number) {

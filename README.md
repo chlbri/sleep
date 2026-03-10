@@ -9,7 +9,7 @@ sleep the time you want !
 ## _Example_
 
 ```typescript
-import sleep from '@bemedev/sleep';
+import { sleep } from '@bemedev/sleep';
 
 const myCoolFunction = async () => {
   // Go to sleep

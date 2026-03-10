@@ -9,7 +9,6 @@ type Props = {
   [key in string]?:
     | Primitive
     | Primitive[]
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     | ((this: VitestUtils, ...args: any) => any);
 };
 

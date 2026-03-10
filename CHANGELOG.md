@@ -3,6 +3,53 @@
 <details>
 <summary>
 
+## **[0.2.2] - 10/03/2026** => _21:50_
+
+</summary>
+
+### Breaking Changes
+
+- BREAKING CHANGE: `sleep` is now a named export — replace
+  `import sleep from '@bemedev/sleep'` with
+  `import { sleep } from '@bemedev/sleep'`
+
+### Features
+
+- Add `src/fixtures.ts` for Vitest utils extension helpers
+- Migrate ESLint config to flat config format (`eslint.config.mjs`)
+- Add `"type": "module"` to package.json
+- Add `ci`, `ci:admin` and `config:off` scripts
+- Update author field to structured object with email, name and url
+
+### Refactoring
+
+- Rename `_augment.ts` → `fixtures.ts`
+- Remove `vite.config.ts` (migrated away from Vite)
+- Raise Node.js engine requirement from `>=12` to `>=22`
+
+### Dependencies
+
+- Add `@bemedev/build-tests`, `@bemedev/fsf`, `@bemedev/sequence`,
+  `@bemedev/vitest-alias`, `@bemedev/vitest-exclude`,
+  `@bemedev/vitest-extended`
+- Add `@eslint/eslintrc`, `@eslint/js`, `globals` for ESLint flat config
+- Add `@types/clone-deep`, `@types/node`, `glob`, `rxjs`, `tsx`,
+  `@vitest/ui`
+- Remove `@vitejs/plugin-react`, `esbuild`, `vite`, `vite-tsconfig-paths`
+- Remove `rollup-plugin-dts`, `rollup-plugin-esbuild`,
+  `rollup-plugin-terser`, `rollup-plugin-typescript2`
+- Update `rollup`, `@typescript-eslint/*`, `eslint`, `typescript`,
+  `vitest`, `husky`, `tslib`
+
+- <u>Test coverage **_100%_**</u>
+
+</details>
+
+<br/>
+
+<details>
+<summary>
+
 ## **[0.2.1] - 18/02/2026** => _15:21_
 
 </summary>
@@ -10,7 +57,8 @@
 ### Features
 
 - Add automated version bump GitHub Action workflow
-- Add comprehensive GitHub Actions documentation (bump-version, add-and-commit)
+- Add comprehensive GitHub Actions documentation (bump-version,
+  add-and-commit)
 - Add RxJS documentation with features and usage examples
 - Add translation and update-docs prompts for Copilot
 
@@ -30,7 +78,7 @@
 ### Refactoring
 
 - Refactor sleep function from declaration to arrow function
-- Rename augment.ts to _augment.ts for better convention
+- Rename augment.ts to \_augment.ts for better convention
 
 ### Documentation
 

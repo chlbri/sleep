@@ -1,5 +1,3 @@
-const sleep = (milliseconds = 100) => {
+export const sleep = (milliseconds = 100) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds));
 };
-
-export default sleep;
